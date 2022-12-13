@@ -6,7 +6,7 @@ import CardsView from './CardsView';
 import ListView from './ListView';
 
 function Store(props) {
-  const [products, setProducts] = useState(data);
+  const [products] = useState(data);
   const [view, setView] = useState('view_list');
 
   const onSwitch = (icon) => {
